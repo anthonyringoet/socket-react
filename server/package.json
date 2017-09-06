@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write **/*.js",
     "precommit": "lint-staged"
   },
   "lint-staged": {
@@ -12,7 +13,6 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.16.2",
     "express": "^4.15.4",
     "socket.io": "^2.0.3"
   },
